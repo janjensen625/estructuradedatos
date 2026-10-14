@@ -1,1 +1,2 @@
-# estructura de datos
+pratica
+
