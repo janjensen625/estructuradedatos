@@ -1,0 +1,55 @@
+
+PARCIAL 1 - ESTRUCTURAS DE DATOS
+
+UNIVERSIDAD DEL PACIFICO
+INGENIERIA DE SISTEMAS
+
+PROYECTO:
+Sistema de gestion de contenedores
+del puerto de Buenaventura.
+
+ARCHIVOS DEL PROYECTO:
+
+1. main.c
+   Contiene el menu principal del programa.
+
+2. contenedor.h
+   Contiene la estructura de los contenedores
+   y los prototipos de las funciones.
+
+3. contenedor.c
+   Permite registrar, mostrar y liberar
+   los contenedores.
+
+4. ordenamiento.h
+   Contiene los prototipos de los metodos
+   de ordenamiento.
+
+5. ordenamiento.c
+   Contiene los tres algoritmos:
+   Bubble Sort
+   Selection Sort
+   Insertion Sort
+
+COMPILACION:
+
+gcc -c main.c -o main.o
+
+gcc -c contenedor.c -o contenedor.o
+
+gcc -c ordenamiento.c -o ordenamiento.o
+
+gcc main.o contenedor.o ordenamiento.o -o puerto_manager.exe
+
+EJECUCION:
+
+./puerto_manager.exe
+
+METODOS DE ORDENAMIENTO:
+
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+
+El programa permite ordenar los contenedores
+por peso de menor a mayor y de mayor a menor.
